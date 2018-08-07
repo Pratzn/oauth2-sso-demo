@@ -93,6 +93,19 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
+	
 	</repositories>
-
+ <pluginRepositories>
+        <pluginRepository>
+            <id>spring</id>
+            <name>spring</name>
+            <url>http://repo.spring.io/plugins-release/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
 </project>
